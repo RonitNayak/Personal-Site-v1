@@ -1,4 +1,4 @@
-body {background-color: lightgray;}
+body {background-color: lightgray;} /* makes background color light gray */
 
 .center { /* centers the text */
   display: block;
@@ -24,22 +24,28 @@ header::after {
   clear: both;
 }
 
-header {
+header { /* Makes the navbar black */
   background-color: black;
 }
 
-nav {
+nav { /* makes all the options float to the left */
   float: left;
 }
 
-nav ul {
-  margin: 0;
+nav ul { /* removes the points from the typical point form of unordered lists */
+  margin: 10;
   padding: 0;
   list-style: none;
 }
 
-nav li {
+nav li { /* makes the list horizontal instead of vertical */
   display: inline-block;
   margin: 0;
   padding: 0;
+  padding-left: 10px;
+}
+
+nav a {
+  color:white;
+  text-decoration: none;
 }
