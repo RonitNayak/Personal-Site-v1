@@ -55,6 +55,7 @@ nav a { /* makes font white and removes the purple */
 
 nav a:hover { /* changes font color to black on mouse hover */
   color: black;
+  background-color: #ddd;
 }
 
 /* I don't really understand this but it's necessary for the hover effect */
