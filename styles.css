@@ -33,7 +33,6 @@ nav { /* makes all the options float to the left */
 }
 
 nav ul { /* removes the points from the typical point form of unordered lists */
-  margin: 10;
   padding: 0;
   list-style: none;
 }
@@ -42,15 +41,22 @@ nav li { /* makes the list horizontal instead of vertical */
   display: inline-block;
   margin: 0;
   padding: 0;
-  padding-left: 10px;
 }
 
 nav a { /* makes font white and removes the purple */
   color:white;
   text-decoration: none;
   position:relative;
-  transition: 0.8s all linear;
-  padding: 17px 17px;
+  transition: 0.4s all linear;
+  padding: 17px 20px;
+}
+
+#home #homebutton { /* changes font color to black on mouse hover */
+  background-color: green;
+}
+ 
+#contact #contactbutton { /* changes font color to black on mouse hover */
+  background-color: green;
 }
 
 nav a:hover { /* changes font color to black on mouse hover */
@@ -62,7 +68,7 @@ nav a:hover { /* changes font color to black on mouse hover */
 nav a::before { 
   content: '';
   display: block;
-  height: 5px;
+  height: 4px;
   background-color: white;
   position:absolute;
   bottom: 0;
