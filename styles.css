@@ -50,7 +50,7 @@ nav a { /* makes font white and removes the purple */
   text-decoration: none;
   position:relative;
   transition: 0.8s all linear;
-  padding: 5px 10px;
+  padding: 17px 17px;
 }
 
 nav a:hover { /* changes font color to black on mouse hover */
