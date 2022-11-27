@@ -43,20 +43,13 @@ nav li { /* makes the list horizontal instead of vertical */
   padding: 0;
 }
 
+
 nav a { /* makes font white and removes the purple */
   color:white;
   text-decoration: none;
   position:relative;
   transition: 0.4s all linear;
   padding: 17px 20px;
-}
-
-#home #homebutton { /* changes font color to black on mouse hover */
-  background-color: green;
-}
- 
-#contact #contactbutton { /* changes font color to black on mouse hover */
-  background-color: green;
 }
 
 nav a:hover { /* changes font color to black on mouse hover */
