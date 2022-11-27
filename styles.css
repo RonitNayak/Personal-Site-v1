@@ -43,8 +43,9 @@ nav li { /* makes the list horizontal instead of vertical */
   padding: 0;
 }
 
-
-nav a { /* makes font white and removes the purple */
+/* makes font white and removes the purple. Transition time is the speed of color change. 
+The padding is key to making the entire 'button' turn white upon hover*/
+nav a { 
   color:white;
   text-decoration: none;
   position:relative;
@@ -52,7 +53,7 @@ nav a { /* makes font white and removes the purple */
   padding: 17px 20px;
 }
 
-nav a:hover { /* changes font color to black on mouse hover */
+nav a:hover { /* changes font color to black on mouse hover, changes button color to white upon hover */
   color: black;
   background-color: #ddd;
 }
