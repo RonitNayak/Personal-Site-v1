@@ -6,7 +6,14 @@ _Simple 2-page site I made using HTML and CSS_
 
 <br>
 
-check it out [here] (https://ronitnayak.github.io/Personal-Site-v1/)
+check it out [here](https://ronitnayak.github.io/Personal-Site-v1/)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/20115127/213053967-186f0508-c15a-4a3b-9846-ee637f516d28.png)
+
+
+<br>
 
 ## Description
 
