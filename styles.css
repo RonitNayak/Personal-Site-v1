@@ -12,12 +12,9 @@ body {background-color: lightgray;} /* makes background color light gray */
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 10%;
-  text-align: center;
 }
 
-/* I don't completely understand this yet, but it keeps the navbar from shrinking. 
-Usually floating to the left would make the navbar 0 pixels, but this block of code keeps it black background */
+/* Usually floating to the left would make the navbar 0 pixels, but this keeps the background black */
 header::after { 
   content: '';
   display: table;
@@ -58,7 +55,7 @@ nav a:hover { /* changes font color to black on mouse hover, changes button colo
   background-color: #ddd;
 }
 
-/* I don't really understand this but it's necessary for the hover effect */
+/* hover effect pt1 */
 nav a::before { 
   content: '';
   display: block;
@@ -66,13 +63,12 @@ nav a::before {
   background-color: white;
   position:absolute;
   bottom: 0;
-  left: 50%;
   height: 0;
   width: 0;
   z-index: -1;
 }
 
-/* I don't really understand this but it's necessary for the hover effect */
+/* hover effect pt2 */
 nav a:hover::before {
   width: 100%;
   height: 100%;
